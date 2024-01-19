@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+</head>
+<body style="background-color: #212121;">
+    
+    <div class="header">
+        <div>
+            <p style="font-family:Rubik Glitch ;color: #D1D1D1;font-size: 40px;margin-left: 35px;margin-top: 35px;position: absolute;"><a href="login.html" style="color: #c8c8c8;"> Voice Up</a></p>
+        </div>
+        <div style="position: absolute;left: 350px;width: 500px;height: 60px;margin-top: 35px;background-color: #363636;border-radius: 10px;">
+            <div style="position: absolute;left: 30px;top: 9px;">
+                <img src="Frame 6.png" alt="">
+            </div>
+            <div style="position: absolute;margin-top: 35px;left: 45%;bottom: 20px;">
+                <p style="color: #9A9A9A;font-family: Roboto Condensed;font-size: 20px;">Search</p>
+            </div>
+        </div>
+        <div style="position: absolute;left: 900px;width: 250px;height: 60px;margin-top: 35px;background-color: #2C418D;border-radius: 10px;">
+            
+            <div style="position: absolute;margin-top: 35px;left :30px;bottom: 20px;">
+                <p style="color: #9A9A9A;font-family: Roboto Condensed;font-size: 20px;">Register your complain</p>
+            </div>
+        </div>
+        <div style="position: absolute;right: 350px;width: auto;height: 60px;margin-top: 25px;;">
+            <div style="position: absolute;left: 30px;top: 9px;">
+                <img src="Frame 3.png" alt="">
+            </div>
+            <div style="position: absolute;left: 125px;top: 9px;">
+                <img src="Frame 4.png" alt="">
+            </div>
+            <div style="position: absolute;left: 230px;top: 19px;"><a href="dashboard.html">
+                <img src="Subtract.png" alt="">
+            </a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="main">
+        <div class="left">
+            <div style="width:100%;background-color: #363636;height: 50px;margin-top: 50px;border-radius: 15px;">
+                <div style="position: absolute;left: 10%;">
+                    <img src="Frame 1.png" alt="">
+                </div>
+                <p style="display: block;font-size: 20px;text-align: center;padding-top: 15px; font-family: Roboto Condensed;color: #818181;">
+                    Home
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 20px;border-radius: 15px;">
+                
+                <p style="display: block;font-size: 20px;text-align: center;padding-top: 15px; font-family: Roboto Condensed;color: #818181;"><a href="community.html" style="color: #818181;">
+                    Community Forum
+                </a>
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 20px;border-radius: 15px;">
+                
+                <p style="display: block;font-size: 20px;text-align: center;padding-top: 15px; font-family: Roboto Condensed;color: #818181;"><a href="resourse.html" style="color: #818181;">
+                    Resourses
+                </a>
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 20px;border-radius: 15px;">
+                
+                <p style="display: block;font-size: 20px;text-align: center;padding-top: 15px; font-family: Roboto Condensed;color: #818181;"><a href="consultancy.html" style="color: #818181;">
+                    Consultancy
+                </a>
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 20px;border-radius: 15px;">
+                
+                <p style="display: block;font-size: 20px;text-align: center;padding-top: 15px; font-family: Roboto Condensed;color: #818181;">
+                    About Us
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 20px;border-radius: 15px;position: absolute;bottom: 20px;">
+                
+                <p style="display: block;font-size: 20px;text-align: center;padding-top: 15px; font-family: Roboto Condensed;color: #818181;">
+                    Contact Us
+                </p>
+            </div>
+
+        </div>
+        <div class="middle">
+            <div class="top">
+                <div style="position: absolute;width: auto;height: auto;right: 30px;top: 345px;">
+                    <img src="Exclude.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="up" style="background: url(bg_info.png);">
+                <button class="open-button" onclick="openForm()"><img src="Exclude.png"></button>
+
+                <div class="chat-popup" id="myForm" >
+                    <div class="chat-container">
+                    <iframe src="https://console.dialogflow.com/api-client/demo/embedded/312c0c49-d689-4097-8b49-e229d7b8d0a8" frameborder="0" scrolling="no"></iframe>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                  </div>
+                </div>
+                                
+                
+                
+                    <p style="padding: 4%;font-family:Roboto Condensed ;color: #515151;font-size: 20px;width: 500px;">  "Your voice matters, we are listening"<br>  <br>   <br>"Voice Up is a safe and supportive platform that empowers women to speak up against sexual harassment at the workplace. Our mission is to create a culture of respect and equality in the workplace by providing victims with the necessary tools and resources to report incidents, seek help and support each other. Through our online portal, women can connect with legal advisors, mental health professionals and other victims to get the help they need. Join us in raising your voice and creating a world where every woman feels safe and empowered."</p>
+                    <img src="wn.jpg" alt="" style="position: absolute;right: 20px;bottom: 35px;height: 350px;border-radius: 10px;">
+            </div>
+            <div class="down">
+                <div style="position: absolute;width: auto;height: auto;">
+                <p style="font-family: Roboto Condensed ;padding: 4% 4%;font-size: 25px;color: #454545;">"Our mission at VoiceUp is to empower women by providing them with a safe and supportive platform to speak out against workplace harassment. We believe in creating a community where survivors can find resources, support, and hope for a better tomorrow."</p>
+                    
+                </div>
+            </div>
+            <div class="bottom">
+                <div style="position: absolute;width: auto;height: auto;">
+                    
+                        <div class="foot">
+                            <p1 style="font-family: Rubik Glitch; size: 40px; color: #9A9A9A;"> Voice Up!</p1>
+                            <p style="font-family: Roboto Condensed;color: #9A9A9A;size: 40px;margin-left: 90px;"> We the Developers of Voice Up!   are pledged towards contributing a safe society for all the huaman beings</p>
+                                <p style="font-family:Roboto Condensed ;color: #9A9A9A; margin-left: 90px;margin-top: 20px;size: 30px;">FOLLOW US</p>
+                            </div>       
+                            <div class=Social-links style="position: absolute;right: 20px;bottom: 10px;">
+                                <a href="https://www.instagram.com/accounts/login/" style="color: #9A9A9A;margin-right: 20px;"><i class="fab fa-instagram"></i></a>
+                                <a href="https://twitter.com/"><i class="fab fa-twitter" style="color: #9A9A9A;margin-right: 20px;"></i></a>
+                                <a href="https://www.facebook.com/login/" style="color: #9A9A9A;margin-right: 20px;"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.linkedin.com/login" style="color: #9A9A9A;margin-right: 20px;"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div style="width:100%;height: 50px;margin-top: 20px;border-radius: 15px;">
+                <div style="position: absolute;left: 10%;">
+                    <img src="ic_round-local-phone.png" alt="">
+                </div>
+                <p style="display: block;font-size: 20px;text-align: center;font-family: Roboto Condensed;color: #818181;font-weight: 200;">
+                    "Your voice matters,<br> we are listening"
+
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 30px;border-radius: 15px;">
+                
+                <p style="display: block;font-size: 15px;text-align: center;font-family: Roboto Condensed;color: #818181;">
+                    National Commission <br>
+                    for Women Helpline<br> 7827170170
+
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 30px;border-radius: 15px;">
+                
+                <p style="display: block;font-size: 15px;text-align: center;font-family: Roboto Condensed;color: #818181;">
+                    Sakshi - violence intervention center<br>
+(0124) 2562336/ 5018873
+
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 30px;border-radius: 15px;">
+                
+                <p style="display: block;font-size: 15px;text-align: center;font-family: Roboto Condensed;color: #818181;">
+                    Human Rights Law Network runs <br>Madhyam Helpline and provide Legal Services<br>
+(011) 24316922/ 24324503<br>
+
+
+                </p>
+            </div>
+            <div style="width:100%;height: 50px;margin-top: 50px;border-radius: 15px;">
+                
+                <p style="display: block;font-size: 15px;text-align: center;font-family: Roboto Condensed;color: #818181;">
+                    CATS - Centralised Ambulance<br> for Trauma Services<br>
+                    1099
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+</body>
+</html>
